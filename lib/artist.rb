@@ -15,8 +15,8 @@ class Artist
   def new_song(title, genre)
     Song.all << Song.new(title, genre)
   end
-    
-    
-    
+
+
+
 
 end
