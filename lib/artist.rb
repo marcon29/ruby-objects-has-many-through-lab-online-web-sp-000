@@ -12,4 +12,11 @@ class Artist
     @@all
   end
 
+  def new_song(title, genre)
+    Song.all << Song.new(title, genre)
+  end
+    
+    
+    
+
 end
