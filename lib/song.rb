@@ -13,7 +13,7 @@ class Song
   end
 
   def artist
-    artist = 
+    artist =
 
 
 end
