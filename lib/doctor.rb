@@ -12,6 +12,8 @@ class Doctor
     @@all
   end
 
+#################################
+
   def new_song(title, genre)
     Song.new(title, self, genre)
   end
